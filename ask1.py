@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import os
-
+#https://ec.europa.eu/eurostat/cache/metadata/en/tour_occ_esms.htm
 
 def download_file(link,year):
     #eksagwgh  link kai katevasma arxeiou excel
