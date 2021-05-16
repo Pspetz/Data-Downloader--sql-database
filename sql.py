@@ -5,7 +5,7 @@ import DBManager
 import csv
 import pandas as pd
 
-mariadb_connection=mariadb.connect(user="root",password="",host="Localhost",port="3306")
+mariadb_connection=mariadb.connect(user="root",password="",host="Localhost",port="3306",database="Tourism_Statistics")
 
 create_cursor = mariadb_connection.cursor()
 def synolikes_afikseis_touristwn (year,row,col,total_arrivals,sheet):
