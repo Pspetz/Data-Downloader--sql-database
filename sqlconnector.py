@@ -6,7 +6,7 @@ mariadb_connection=mariadb.connect(user="root",password="",host="Localhost",port
 create_cursor = mariadb_connection.cursor()
 
 
-create_cursor.execute("CREATE DATABASE IF NOT EXISTS Tourism_Statistics;")
+create_cursor.execute("CREATE DATABASE IF NOT EXISTS Greece_stats;")
 for x in create_cursor:
     print(x)
 
