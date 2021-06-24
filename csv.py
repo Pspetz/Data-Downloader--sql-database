@@ -1,4 +1,3 @@
-from itertools import product
 import mysql.connector as mariadb
 import csv
 import pandas as pd
