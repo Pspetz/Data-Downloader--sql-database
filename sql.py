@@ -17,7 +17,7 @@ def synolikes_afikseis_touristwn (year,row,col,total_arrivals,sheet):
     cursor.execute(sql,val)
     db.mydb.commit()
     print("Epituximeno perasma statistikos sthn vasi Greece_Stats")
-    csv_output_file(['XRONOLOGIA','TOURISTES'],"ΣΥΝΟΛΙΚΕΣ ΑΦΙΞΕΙΣ ΤΟΥΡΙΣΤΩΝ ΓΙΑ ΤΟ 2015-2019.csv","statistika")
+    csv_output_file(['XRONOLOGIA','TOURISTES']," ΑΦΙΞΕΙΣ ΓΙΑ ΤΟ 2015-2019.csv","statistika")
 
  
 
