@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import os
-#https://ec.europa.eu/eurostat/cache/metadata/en/tour_occ_esms.htm
+
 
 def download_file(link,year):
     #eksagwgh  link kai katevasma arxeiou excel
@@ -34,7 +34,6 @@ for year in range(2015,2019):
     if not os.path.exists('spetzfiles/'+str(year)):
         os.makedirs('spetzfiles/'+str(year))
 
-print('-----------------------\n-----------------------\n-----------------------')
 #gia kathe url tou antistoixou etous katevazoume to html page gia ekswgwgi ton links me ta arxeia excel
 #apothikeysi kathe excel ston swsto fakelo me tin xronologia tou
 year = 2015 
